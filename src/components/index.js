@@ -1,0 +1,16 @@
+export { default as Loading } from "./Loading";
+export { default as Navbar } from "./Navbar";
+export { default as SocialLinks } from "./SocialLinks";
+export { default as Hero } from "./Hero";
+export { default as About } from "./About";
+export { default as AboutMe } from "./AboutMe";
+export { default as Experience } from "./Experience";
+export { default as Education } from "./Education";
+export { default as Certifications } from "./Certifications";
+export { default as Awards } from "./Awards";
+export { default as Skills } from "./Skills";
+export { default as Portfolio } from "./Portfolio";
+export { default as SkillsCategory } from "./SkillsCategory";
+export { default as ProjectList } from "./ProjectList";
+export { default as Contact } from "./Contact";
+export { default as Footer } from "./Footer";
