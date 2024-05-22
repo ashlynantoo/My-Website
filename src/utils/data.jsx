@@ -78,7 +78,7 @@ export const pageLinks = [
 export const socialLinks = [
   {
     id: 1,
-    url: "https://github.com/ashlynantoo",
+    url: "https://linkedin.com/in/ashlynantoo",
     icon: <FaLinkedin />,
   },
   {
@@ -91,31 +91,39 @@ export const socialLinks = [
 export const jobs = [
   {
     id: 1,
-    title: "Web Developer",
-    company: "Freelancing",
-    period: "January 2021 - Present",
+    title: "Full Stack Web Development - Certifications & Projects",
+    company: "Freelance",
+    period: "January 2023 - Present",
     duties: [
-      "Developed front end, back end, and full stack applications as part of learning",
-      "Implemented REST APIs in the back end and used these APIs in the front end. Also used APIs from third party applications.",
-      "Applications use MVC(Model-View-Controller) architecture thereby enhancing maintainability, scalability, and efficiency",
-      "Used react query to avoid unnecessary API requests by caching",
-      "Use of redux toolkit for state management in applications",
-      "JWT and Cookies used for authentication",
-      "Used error handlers to handle errors and methods like hashing, encryption and extra security packages to prevent security attacks",
-      "Aggregation pipeline was used to process and summarize the data",
-      "Used Stripe to process the payments",
-      "Docgen and Postman were used to generate API documentation",
+      "Developed 25+ front-end, back-end, and full-stack (MERN stack) applications",
+      "Applied MVC (Model-View-Controller) architecture for the applications to enhance maintainability, scalability, and efficiency",
+      "Constructed 25+ responsive user interfaces using HTML, CSS, JavaScript, Bootstrap, and React.js",
+      "Built reusable components using React.js which helped in reducing the development time",
+      "Utilized React Query to avoid unnecessary API requests by caching and therefore optimized application performance",
+      "Implemented the loader function in React Router to fetch the data before rendering the components making the application faster and more responsive",
+      "Used Redux Toolkit for state management in applications",
+      "Integrated front-end with back-end",
+      "Designed and built REST APIs for 3 applications using Node.js and Express.js and fetched data from third-party APIs using Axios",
+      "Documented REST APIs for 2 applications utilizing Docgen and Postman",
+      "Tested, debugged, and troubleshot application errors and resolved errors using error handlers",
+      "Utilized both bearer tokens and cookies for authentication",
+      "Implemented methods like hashing & encryption and added extra security packages in the back-end to prevent security attacks",
+      "Designed MongoDB database schemas for 3 applications to store and retrieve data efficiently",
+      "Exploited MongoDB aggregation pipeline for complex queries in 1 application",
+      "Used Stripe APIs to process the payments securely in 2 e-commerce applications",
+      "Deployed 25+ applications on Netlify and 5 applications on Render",
     ],
   },
   {
     id: 2,
     title: "Assistant Systems Engineer",
-    company: "Tata Consultancy Services",
+    company: "Tata Consultancy Services (TCS)",
     period: "March 2011 - July 2012",
     duties: [
-      "Well-versed in all phases of software development life cycle",
-      "Trained and worked in Java and Web Technologies",
-      "Performed black box testing of software applications",
+      "Trained in Java and Web Technologies (Java EE, Oracle, JBoss, Spring, Hibernate, Apache Derby, Apache Tomcat, Eclipse IDE)",
+      "Involved in all the phases of the software development life cycle (requirement identification, analysis, design, development, and testing) as part of training",
+      "Integrated our team's software application with 4 other teams' applications to form a single software application and was recognized as TCS Gem for this work",
+      "Collaborated with 5 other team members to analyze the software application, write & execute test cases, and perform regression testing",
     ],
   },
 ];
@@ -141,7 +149,7 @@ export const courses = [
     title: "NodeJS Tutorial and Projects Course - Udemy",
     year: "March 2024",
     desc: [
-      "NodeJS and ExpressJS Fundamentals, Express Router, Routes & Controllers, Middleware, Error handler, REST API, Postman, MongoDB, Mongoose, Model, JWT, Hashing, Cookies, Security packages, Aggregation pipeline, File upload, Send emails using SendGrid, Stripe, Populate, Mongoose virtuals, Docgen for API docs, Deployment on Render",
+      "Node.js and Express.js Fundamentals, Express Router, Routes & Controllers, Middleware, Error handler, REST APIs, Postman, MongoDB, Mongoose, Model, JWT, Hashing, Cookies, Security packages, Aggregation pipeline, File upload, Send emails using SendGrid, Stripe, Populate, Mongoose virtuals, Docgen for API docs, Deployment on Render",
     ],
   },
   {
@@ -149,7 +157,7 @@ export const courses = [
     title: "React 18 Tutorial and Projects Course - Udemy",
     year: "December 2023",
     desc: [
-      "React Fundamentals, React Hooks, Performance, React Router, React Query, Axios HTTP Library, Redux Toolkit, Vite, Chrome DevTools, Contentful CMS, Airtable, Auth0, Tailwind CSS, Styled Components, Stripe, Serverless Netlify Functions, Deployment on Netlify",
+      "React.js Fundamentals, React Hooks, Performance, React Router, React Query, Axios HTTP Library, Redux Toolkit, Vite, Chrome DevTools, Contentful CMS, Airtable, Auth0, Tailwind CSS, Styled Components, Stripe, Serverless Netlify Functions, Deployment on Netlify",
     ],
   },
   {
@@ -158,7 +166,7 @@ export const courses = [
     year: "July 2021",
     desc: [
       "Full-Stack Web Development",
-      "HTML, CSS, Bootstrap, Javascript, jQuery, React, Node, Express, MongoDB, Mongoose, APIs & RESTful APIs, Git & Version Control",
+      "HTML, CSS, Bootstrap, JavaScript, jQuery, React.js, Node.js, Express.js, MongoDB, Mongoose, REST APIs, Git & Version Control",
     ],
   },
 ];
@@ -174,7 +182,7 @@ export const honors = [
   },
   {
     id: 3,
-    desc: "GATE Scholarship for doing Master of Technology in Computer Science & Engineering",
+    desc: "GATE Scholarship for doing Master of Technology in Computer Science & Engineering, 2012-2014",
   },
 ];
 
@@ -206,7 +214,7 @@ export const skillsAndTools = [
   },
   {
     id: 6,
-    name: "React",
+    name: "React.js",
     icon: <FaReact />,
   },
   {
@@ -231,7 +239,7 @@ export const skillsAndTools = [
   },
   {
     id: 11,
-    name: "Github",
+    name: "GitHub",
     icon: <FaGithub />,
   },
   {
@@ -321,7 +329,7 @@ export const skillsAndTools = [
   },
   {
     id: 29,
-    name: "APIs & REST APIs",
+    name: "REST APIs",
     icon: <MdSettings />,
   },
   {
@@ -336,26 +344,22 @@ export const skillsAndTools = [
   },
   {
     id: 32,
-    name: "Mockaroo",
-  },
-  {
-    id: 33,
     name: "Render",
   },
   {
-    id: 34,
+    id: 33,
     name: "Cloudinary",
   },
   {
-    id: 35,
+    id: 34,
     name: "SendGrid",
   },
   {
-    id: 36,
+    id: 35,
     name: "Docgen",
   },
   {
-    id: 37,
+    id: 36,
     name: "EmailJS",
   },
 ];

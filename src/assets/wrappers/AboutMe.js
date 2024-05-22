@@ -29,6 +29,12 @@ const Wrapper = styled.section`
     text-align: center;
   }
 
+  .btn a,
+  .btn a:active,
+  .btn a:visited {
+    color: var(--color-white);
+  }
+
   @media screen and (min-width: 850px) {
     .about-container {
       flex-direction: row;
